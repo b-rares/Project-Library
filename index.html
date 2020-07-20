@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      Digital Library
+    </header>
+    <div id="table-container">
+      <table id="table">
+        <caption id="caption-table">
+          Your books!
+        </caption>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Status</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <form id="form-popup">
+      <h1 class="label">Your book:</h1>
+
+      <label for="name" class="label"><b>Book name:</b></label>
+      <input type="text" name="name" id="title" required />
+
+      <label for="author" class="label"><b>Author:</b></label>
+      <input type="text" name="author" id="author" required />
+
+      <label for="pages" class="label"><b>Number of Pages:</b></label>
+      <input type="number" name="pages" id="pages" required />
+
+      <div id="status-container">
+        <label for="finished" class="label">Finished</label>
+        <input type="checkbox" name="finished" id="status" />
+      </div>
+      <button type="submit" id="btn-add">Add</button>
+      <button type="submit" id="btn-cancel">
+        Cancel
+      </button>
+    </form>
+    <div id="open">
+      <button id="open-btn">Add</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

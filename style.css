@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  padding: 6px;
+  border-radius: 10px;
+  color: black;
+}
+
+#form-popup {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#status-container {
+  margin: 10px;
+}
+
+#btn-add {
+  background-color: #2bad4c;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+#btn-cancel {
+  background-color: #ad263e;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+button {
+  cursor: pointer;
+}
+
+#open-btn {
+  background-color: #2bad4c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+#form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+header {
+  font-size: 32px;
+  background-color: #bce7fd;
+  padding: 10 5;
+}
+
+#table {
+  width: 700px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  border: 2px solid grey;
+  border-collapse: collapse;
+}
+
+#btns {
+  display: block;
+}
+
+.label {
+  margin: 10px;
+}
+
+td,
+th {
+  text-align: center;
+  border: 2px solid grey;
+  padding: 10px;
+}
+
+#caption-table {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.delete-btn {
+  background-color: red;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.status {
+  background-color: green;
+  border: none;
+  padding: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.td_toRow {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  align-items: center;
+}
